@@ -219,6 +219,17 @@
             background: #FAF8F3;
         }
 
+        /* 댓글 섹션 */
+        .comments-section {
+            padding: 60px 40px;
+            background: #FFFEF8;
+        }
+
+        .comments-container {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
         .gallery-title {
             font-family: 'Cormorant Garamond', serif;
             font-size: 1.8rem;
@@ -321,7 +332,8 @@
 
             .message-section,
             .info-section,
-            .gallery-section {
+            .gallery-section,
+            .comments-section {
                 padding: 40px 20px;
             }
 
@@ -411,6 +423,20 @@
                 <div class="gallery-item">사진 2</div>
                 <div class="gallery-item">사진 3</div>
                 <div class="gallery-item">사진 4</div>
+            </div>
+        </div>
+
+        <!-- 댓글 섹션 -->
+        <div class="comments-section">
+            <h2 class="gallery-title">축하 메시지</h2>
+            <div class="comments-container">
+                <script src="https://utterances.dev/client.js"
+                        repo="kakao-jm-hong/signboard"
+                        issue-term="pathname"
+                        theme="github-light"
+                        crossorigin="anonymous"
+                        async>
+                </script>
             </div>
         </div>
 
